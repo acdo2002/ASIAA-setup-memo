@@ -47,6 +47,8 @@ Ming-yi's note for Mac: <br />
     make -j
     sudo make install
 
+>protobuf
+[C++ Installation Instructions for protobuf](https://github.com/protocolbuffers/protobuf/blob/master/src/README.md)
 * then install casacore <br />
 ddd
 * finally install carta-protobuf <br />

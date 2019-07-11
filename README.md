@@ -7,10 +7,9 @@ Memo for setting up the frontend and backend
 Ming-yi's note for Mac:
 directly type `emcc` 
 
-if you type
-`git clone --recursive https://github.com/CARTAvis/carta-frontend.git`
+if you include `git clone --recursive https:...`
 
-then you can skip <br />
+It will download the submodule simutaneously, then you can skip to type <br />
 `cd protobuf `<br />`
 git submodule init `<br />`
 git submodule update `<br />`

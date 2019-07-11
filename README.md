@@ -10,10 +10,10 @@ directly type `emcc`
 if you include `git clone --recursive https:...`
 
 It will download the submodule simutaneously, then you can skip to type 
-    cd protobuf <br />
-    git submodule init <br />
-    git submodule update <br />
-    git checkout master <br />
+`cd protobuf `<br />
+`git submodule init `<br />
+`git submodule update `<br />
+`git checkout master `<br />
 
     Final step to open the frontend window: npm start
 

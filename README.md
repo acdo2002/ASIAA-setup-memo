@@ -11,7 +11,7 @@ if you type
 `git clone --recursive https://github.com/CARTAvis/carta-frontend.git`
 
 then you can skip
-`cd protobuf
+`cd protobuf <br />
 git submodule init
 git submodule update
 git checkout master `

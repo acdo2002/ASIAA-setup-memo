@@ -14,7 +14,7 @@ then you can skip <br />
 `cd protobuf `<br />`
 git submodule init `<br />`
 git submodule update `<br />`
-git checkout master `<br />`
+git checkout master `<br />
 
 Final step to open the frontend window: npm start
 

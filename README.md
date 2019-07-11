@@ -25,11 +25,11 @@ Universal notes:
 2. `sudo git clone https:....` under /usr/local/src
 3. cd 'target' folder `mkdir build`
 4. `cd build`
-5. cmake .. -DCMAKE_INSTALL_PREFIX=/usr/local/'target'/ 
-產生編譯的檔案 並且指定安裝到/usr/local/'target'/
-如果沒有指明 (-DCMAKE_INSTALL_PREFIX=/usr/local/'target'/ ) 他就會安裝在usr/local/lib/ 裡面 名稱會是：libXXX
+5. `cmake .. -DCMAKE_INSTALL_PREFIX=/usr/local/'target'/ `
+產生編譯的檔案 並且指定安裝到 `/usr/local/'target'/`
+如果沒有指明 (`-DCMAKE_INSTALL_PREFIX=/usr/local/'target'/ `) 他就會安裝在 `usr/local/lib/` 裡面 名稱會是：libXXX
 6. 在`/usr/local/src/build/` 下面type `make` 這個步驟是在編譯，並且放置在build裡面
-7. 在`/usr/local/src/build/` 下面type `make intall` 這個步驟才會把source code完整安裝到/usr/local/'target'/
+7. 在`/usr/local/src/build/` 下面type `make intall` 這個步驟才會把source code完整安裝到`/usr/local/'target'/`
 
 Ming-yi's note for Mac:
 

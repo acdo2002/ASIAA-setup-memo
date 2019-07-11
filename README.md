@@ -32,8 +32,8 @@ Universal notes:
 7. 在`/usr/local/src/build/` 下面type `make intall` 這個步驟才會把source code完整安裝到`/usr/local/'target'/`
 
 ----
-Ming-yi's note for Mac:
-start install from zfp, fmt, protobuf, hdf5, uWebSockets, and tbb
-then install casacore
-finally install carta-protobuf
+Ming-yi's note for Mac: <br />
+start install from zfp, fmt, protobuf, hdf5, uWebSockets, and tbb <br />
+then install casacore <br />
+finally install carta-protobuf <br />
 

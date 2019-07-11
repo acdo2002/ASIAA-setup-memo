@@ -92,5 +92,8 @@ It will download the submodule simutaneously, then you can skip to type
     $cmake xxx
     $make
     
-
+    Final step to open the backend server: 
+    $LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/casacore/lib
+    $export LD_LIBRARY_PATH
+    $./carta_backend 
 

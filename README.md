@@ -10,7 +10,7 @@ directly type `emcc`
 if you type
 `git clone --recursive https://github.com/CARTAvis/carta-frontend.git`
 
-then you can skip
+then you can skip <br />
 `cd protobuf `<br />`
 git submodule init `<br />`
 git submodule update `<br />`

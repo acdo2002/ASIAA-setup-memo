@@ -21,7 +21,10 @@ git checkout master `<br />
 [CARTA backend webpage](https://github.com/CARTAvis/carta-backend)
 
 Universal notes:
-1. `sudo git clone https:.....` under /usr/local/src
-2. cd target folder `mkdir build`
-3. `cd build`
+1. Going to the 'target' github webpage and copy the link
+2. `sudo git clone https:....` under /usr/local/src
+3. cd 'target' folder `mkdir build`
+4. `cd build`
+5. cmake .. -DCMAKE_INSTALL_PREFIX=/usr/local/'target'/ 
+產生編譯的檔案 並且指定安裝到/usr/local/zfp/
 

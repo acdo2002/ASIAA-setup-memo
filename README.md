@@ -39,6 +39,7 @@ Ming-yi's note for Mac: <br />
 沒有cmake只有Makefile時，直接type <br />
 `make` <br />
 `make install`
+>uWebSockets
 
 * then install casacore <br />
 ddd

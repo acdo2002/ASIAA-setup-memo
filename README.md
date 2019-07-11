@@ -9,7 +9,7 @@ directly type `emcc`
 
 if you include `git clone --recursive https:...`
 
-It will download the submodule simutaneously, then you can skip to type <br />
+It will download the submodule simutaneously, then you can skip to type 
 `cd protobuf `<br />`
 git submodule init `<br />`
 git submodule update `<br />`
@@ -22,4 +22,6 @@ git checkout master `<br />
 
 Universal notes:
 1. `sudo git clone https:.....` under /usr/local/src
+2. cd target folder `mkdir build`
+3. `cd build`
 

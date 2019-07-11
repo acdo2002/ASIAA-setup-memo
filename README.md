@@ -33,7 +33,7 @@ It will download the submodule simutaneously, then you can skip to type
 
 ----
 ## Ming-yi's note for Mac: <br />
-* start install from zfp, fmt, protobuf, hdf5, uWebSockets, and tbb <br />
+### start install from zfp, fmt, protobuf, hdf5, uWebSockets, and tbb <br />
 >uWebSockets
 
 沒有cmake只有Makefile時，直接type <br />
@@ -56,7 +56,7 @@ It will download the submodule simutaneously, then you can skip to type
     sudo make install
 works fine with my Mac. <br />
 
-* then install casacore <br />
+### then install casacore <br />
 >casacore
 
     cmake .. -DCMAKE_INSTALL_PREFIX=/usr/local/casacore
@@ -70,6 +70,6 @@ works fine with my Mac. <br />
     -DBUILD_PYTHON=OFF
     -DDATA_DIR=/usr/share/casacore/data
     
-* finally install carta-protobuf <br />
+### finally install carta-protobuf <br />
 ddd
 

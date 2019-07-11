@@ -89,7 +89,7 @@ It will download the submodule simutaneously, then you can skip to type
 > 如果要跟新 要在build下面 <br />
 
     $git pull
-    $cmake xxx
+    ($cmake xxx)
     $make
     
     Final step to open the backend server: 

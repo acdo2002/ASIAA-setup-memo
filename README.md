@@ -10,10 +10,10 @@ directly type `emcc`
 if you include `git clone --recursive https:...`
 
 It will download the submodule simutaneously, then you can skip to type 
-`cd protobuf `<br />`
-git submodule init `<br />`
-git submodule update `<br />`
-git checkout master `<br />
+    cd protobuf <br />
+    git submodule init <br />
+    git submodule update <br />
+    git checkout master <br />
 
     Final step to open the frontend window: npm start
 
@@ -32,5 +32,7 @@ Universal notes:
 7. 在`/usr/local/src/build/` 下面type `make intall` 這個步驟才會把source code完整安裝到`/usr/local/'target'/`
 
 Ming-yi's note for Mac:
-
+start install from zfp, fmt, protobuf, hdf5, uWebSockets, and tbb
+then install casacore
+finally install carta-protobuf
 

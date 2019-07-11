@@ -12,9 +12,9 @@ if you type
 
 then you can skip
 `cd protobuf `<br />`
-git submodule init
-git submodule update
-git checkout master `
+git submodule init `<br />`
+git submodule update `<br />`
+git checkout master `<br />`
 
 Final step to open the frontend window: npm start
 

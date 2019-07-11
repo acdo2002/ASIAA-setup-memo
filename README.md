@@ -40,7 +40,7 @@ It will download the submodule simutaneously, then you can skip to type
 
     make
     make install
->tbb
+>* tbb
 
     git clone https://github.com/wjakob/tbb.git
     cd tbb/build
@@ -48,16 +48,16 @@ It will download the submodule simutaneously, then you can skip to type
     make -j
     sudo make install
 
->protobuf
+>* protobuf
 
-[C++ Installation Instructions for protobuf](https://github.com/protocolbuffers/protobuf/blob/master/src/README.md) <br />
+>[C++ Installation Instructions for protobuf](https://github.com/protocolbuffers/protobuf/blob/master/src/README.md) <br />
     
     make check
     sudo make install
 works fine with my Mac. <br />
 
 #### then install casacore <br />
->casacore
+>* casacore
 
     cmake .. -DCMAKE_INSTALL_PREFIX=/usr/local/casacore
     -DUSE_FFTW3=ON
@@ -71,5 +71,5 @@ works fine with my Mac. <br />
     -DDATA_DIR=/usr/share/casacore/data
     
 #### finally install carta-protobuf <br />
-ddd
+>* carta-protobuf
 

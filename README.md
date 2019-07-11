@@ -53,7 +53,7 @@ It will download the submodule simutaneously, then you can skip to type
     
     make check
     sudo make install
-works fine with my Mac. <br />
+>works fine with my Mac. <br />
 
 #### then install casacore <br />
 >* casacore

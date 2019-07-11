@@ -31,6 +31,7 @@ Universal notes:
 6. 在`/usr/local/src/build/` 下面type `make` 這個步驟是在編譯，並且放置在build裡面
 7. 在`/usr/local/src/build/` 下面type `make intall` 這個步驟才會把source code完整安裝到`/usr/local/'target'/`
 
+----
 Ming-yi's note for Mac:
 start install from zfp, fmt, protobuf, hdf5, uWebSockets, and tbb
 then install casacore

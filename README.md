@@ -33,7 +33,10 @@ Universal notes:
 
 ----
 Ming-yi's note for Mac: <br />
-start install from zfp, fmt, protobuf, hdf5, uWebSockets, and tbb <br />
-then install casacore <br />
-finally install carta-protobuf <br />
+* start install from zfp, fmt, protobuf, hdf5, uWebSockets, and tbb <br />
+ddd
+* then install casacore <br />
+ddd
+* finally install carta-protobuf <br />
+ddd
 

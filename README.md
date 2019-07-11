@@ -16,7 +16,7 @@ git submodule init `<br />`
 git submodule update `<br />`
 git checkout master `<br />
 
-Final step to open the frontend window: npm start
+    Final step to open the frontend window: npm start
 
 # Backend setup 
 [CARTA backend webpage](https://github.com/CARTAvis/carta-backend)

@@ -57,6 +57,7 @@ It will download the submodule simutaneously, then you can skip to type
 works fine with my Mac. <br />
 
 * then install casacore <br />
+>casacore
 
     cmake .. -DCMAKE_INSTALL_PREFIX=/usr/local/casacore
     -DUSE_FFTW3=ON

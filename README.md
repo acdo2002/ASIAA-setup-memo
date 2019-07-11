@@ -49,7 +49,10 @@ Ming-yi's note for Mac: <br />
 
 >protobuf
 
-[C++ Installation Instructions for protobuf](https://github.com/protocolbuffers/protobuf/blob/master/src/README.md)
+[C++ Installation Instructions for protobuf](https://github.com/protocolbuffers/protobuf/blob/master/src/README.md) <br />
+`make check` <br />
+`sudo make install` <br />
+works fine with my Mac. <br />
 
 * then install casacore <br />
 ddd

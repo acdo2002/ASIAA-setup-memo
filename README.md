@@ -39,7 +39,13 @@ Ming-yi's note for Mac: <br />
 沒有cmake只有Makefile時，直接type <br />
 `make` <br />
 `make install`
->uWebSockets
+>tbb
+
+    git clone https://github.com/wjakob/tbb.git
+    cd tbb/build
+    cmake ..
+    make -j
+    sudo make install
 
 * then install casacore <br />
 ddd

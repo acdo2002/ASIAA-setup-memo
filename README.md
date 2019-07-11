@@ -48,8 +48,7 @@ It will download the submodule simutaneously, then you can skip to type
     make -j
     sudo make install
 
->* protobuf
-
+>* protobuf <br />
 >[C++ Installation Instructions for protobuf](https://github.com/protocolbuffers/protobuf/blob/master/src/README.md) <br />
     
     make check

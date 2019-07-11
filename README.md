@@ -34,9 +34,9 @@ It will download the submodule simutaneously, then you can skip to type
 ----
 ## Ming-yi's note for Mac: <br />
 #### start install from zfp, fmt, protobuf, hdf5, uWebSockets, and tbb <br />
->uWebSockets
-
-沒有cmake只有Makefile時，直接type <br />
+>* uWebSockets
+>
+>沒有cmake只有Makefile時，直接type <br />
 
     make
     make install

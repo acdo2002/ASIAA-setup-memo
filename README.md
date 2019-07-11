@@ -21,3 +21,6 @@ git checkout master `<br />
 # Backend setup 
 [CARTA backend webpage](https://github.com/CARTAvis/carta-backend)
 
+Universal notes:
+1. `sudo git clone https:.....` under /usr/local/src
+

@@ -53,7 +53,7 @@ It will download the submodule simutaneously, then you can skip to type
     
     make check
     sudo make install
->works fine with my Mac. <br />
+>works fine with my Mac. No errors with `make check` =
 
 #### then install casacore <br />
 >* casacore
@@ -70,5 +70,27 @@ It will download the submodule simutaneously, then you can skip to type
     -DDATA_DIR=/usr/share/casacore/data
     
 #### finally install carta-protobuf <br />
->* carta-protobuf
+>* carta-protobuf <br />
+> -I means include <br />
+> -L means lib <br />
+
+    $cmake -DCMAKE_CXX_FLAGS="-I /usr/local/casacore/include 
+    -I /usr/local/fmt/include 
+    -I /usr/local/Cellar/tbb/2019_U8/include 
+    -I /usr/local/include 
+    -I /usr/local/Cellar/openssl/1.0.2s/include 
+    -I /usr/local/zfp/include" 
+    -DCMAKE_CXX_STANDARD_LIBRARIES="-L /usr/local/casacore/lib 
+    -L /usr/local/lib 
+    -L /usr/local/Cellar/openssl/1.0.2s/lib 
+    -L /usr/local/fmt/lib 
+    -L /usr/local/zfp/lib -luWS" ..
+    $make
+> 如果要跟新 要在build下面 <br />
+
+    $git pull
+    $cmake xxx
+    $make
+    
+
 

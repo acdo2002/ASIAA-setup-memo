@@ -37,8 +37,9 @@ Ming-yi's note for Mac: <br />
 >uWebSockets
 
 沒有cmake只有Makefile時，直接type <br />
-`make` <br />
-`make install`
+
+    make
+    make install
 >tbb
 
     git clone https://github.com/wjakob/tbb.git
@@ -50,8 +51,9 @@ Ming-yi's note for Mac: <br />
 >protobuf
 
 [C++ Installation Instructions for protobuf](https://github.com/protocolbuffers/protobuf/blob/master/src/README.md) <br />
-`make check` <br />
-`sudo make install` <br />
+    
+    make check
+    sudo make install
 works fine with my Mac. <br />
 
 * then install casacore <br />

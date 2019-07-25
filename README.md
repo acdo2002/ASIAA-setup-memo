@@ -17,7 +17,7 @@ It will download the submodule simutaneously, then you can skip to type
 
     Final step to open the frontend window: npm start
 
-`git pull` in protobuf, you need to ./build_proto.sh
+`git pull` in protobuf, you need to `./build_proto.sh`
 builds the static JavaScript code, as well as the TypeScript definitions, and symlinks to the node_modules/carta-protobuf directory.
 
 # Backend setup 

@@ -11,11 +11,13 @@ if you include `git clone --recursive https:...`
 
 It will download the submodule simutaneously, then you can skip to type 
 `cd protobuf `<br />
-`git submodule init `<br />
-`git submodule update `<br />
-`git checkout master `<br />
+`git submodule init `<br /> setting "ready to update submodule". So far, the submodule directories are empty.
+`git submodule update `<br /> letting submodule update
+`git checkout master `<br /> 
 
     Final step to open the frontend window: npm start
+
+git pull protobuf, you have to 
 
 # Backend setup 
 [CARTA backend webpage](https://github.com/CARTAvis/carta-backend)

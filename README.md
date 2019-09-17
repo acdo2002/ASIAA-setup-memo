@@ -107,7 +107,7 @@ So far it works on Ubuntu system:
 
     Final step to open the backend server: 
     
-    $LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/casacore/lib:/usr/local/zfp/lib:/usr/local/lib
+    $LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/casacore/lib:/usr/local/zfp/lib:/usr/local/lib <br />
     $export LD_LIBRARY_PATH
     
     $./carta_backend 

@@ -110,6 +110,6 @@ So far it works on Ubuntu system:
     $LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/casacore/lib:/usr/local/zfp/lib:/usr/local/lib <br />
     $export LD_LIBRARY_PATH
     
-    $./carta_backend 
+    $./carta_backend
 
 

@@ -99,4 +99,17 @@ builds the static JavaScript code, as well as the TypeScript definitions, and sy
     $LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/casacore/lib
     $export LD_LIBRARY_PATH
     $./carta_backend 
+    
+##### 2019/08/26 New casacode installation
+>[casacore installation](https://docs.google.com/document/d/1290lnvp9fDShOKuipJUmusAfcuqBmSmPwaEbRUVOM28/edit) <br />
+Once it has been installed(/usr/local/), the carta-backend should re-build again. 
+So far it works on Ubuntu system:
+
+    Final step to open the backend server: 
+    
+    $LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/casacore/lib:/usr/local/zfp/lib:/usr/local/lib
+    $export LD_LIBRARY_PATH
+    
+    $./carta_backend 
+
 

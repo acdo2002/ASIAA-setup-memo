@@ -112,4 +112,18 @@ So far it works on Ubuntu system:
     
     $./carta_backend
 
+##### 2019/11/04 Update casacode installation
+Problem: 
+
+    `sudo echo 'code/*' > .git/info/sparse-checkout`
+
+terminal returns Permission denied!
+
+[Solution](https://unix.stackexchange.com/questions/4830/how-do-i-use-redirection-with-sudo) <br />
+`>>` happens before the actual command execution and does not run with the elevated `sudo` privileges.
+
+An alternative way to do this, is to wrap the entire command in another bash command shell:
+
+    `sudo bash -c "echo 'code/*' > .git/info/sparse-checkout"`
+
 

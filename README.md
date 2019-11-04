@@ -115,7 +115,7 @@ So far it works on Ubuntu system:
 ##### 2019/11/04 Update casacode installation
 Problem: 
 
-    `sudo echo 'code/*' > .git/info/sparse-checkout`
+`sudo echo 'code/*' > .git/info/sparse-checkout`
 
 terminal returns Permission denied!
 
@@ -124,6 +124,6 @@ terminal returns Permission denied!
 
 An alternative way to do this, is to wrap the entire command in another bash command shell:
 
-    `sudo bash -c "echo 'code/*' > .git/info/sparse-checkout"`
+`sudo bash -c "echo 'code/*' > .git/info/sparse-checkout"`
 
 

@@ -100,7 +100,7 @@ builds the static JavaScript code, as well as the TypeScript definitions, and sy
     $export LD_LIBRARY_PATH
     $./carta_backend 
     
-##### 2019/08/26 New casacode installation
+##### 2019/08/26 New casacode installation (Linux)
 >[casacore installation](https://docs.google.com/document/d/1290lnvp9fDShOKuipJUmusAfcuqBmSmPwaEbRUVOM28/edit) <br />
 Once it has been installed(/usr/local/), the carta-backend should re-build again. 
 So far it works on Ubuntu system:
@@ -112,7 +112,7 @@ So far it works on Ubuntu system:
     
     $./carta_backend
 
-##### 2019/11/04 Update casacode installation
+##### 2019/11/04 Update casacode installation (Linux)
 Problem: 
 
 `sudo echo 'code/*' > .git/info/sparse-checkout`

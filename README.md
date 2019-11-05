@@ -126,4 +126,17 @@ An alternative way to do this, is to wrap the entire command in another bash com
 
 `sudo bash -c "echo 'code/*' > .git/info/sparse-checkout"`
 
+##### 2019/11/05 Update CARTA-backend installation (Linux)
+Problem:
 
+1. make: cannot find fmt
+
+solution:
+
+`sudo apt-get install libfmt-dev`  (not libfmt3-dev for Ubutntu 18)
+
+2. final cmake version:
+
+`$ cmake .. -DCMAKE_CXX_FLAGS="-I/usr/local/include/casacode -I/usr/local/include/casacore -I/usr/local/casacore/include -I/usr/local/casacore/include/casacore/ -I/usr/local/zfp/include/" -DCMAKE_CXX_STANDARD_LIBRARIES="-L/usr/local/lib -L/usr/local/casacore/lib -L/usr/local/zfp/lib -L/usr/local/protobuf/lib -limageanalysis"`
+
+`$ make`

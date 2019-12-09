@@ -72,6 +72,12 @@ builds the static JavaScript code, as well as the TypeScript definitions, and sy
     -DBUILD_PYTHON=OFF
     -DDATA_DIR=/usr/share/casacore/data
     
+>* casacore (2019/12/10 casacore6)
+
+
+    https://open-bitbucket.nrao.edu/projects/CASA/repos/carta-casacore/browse
+    cmake -DUseCcache=1 -DHAS_CXX11=1 -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_Fortran_COMPILER=/usr/local/bin/gfortran -DBoost_NO_BOOST_CMAKE=1 -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/usr/local -DCMAKE_BUILD_TYPE=Debug ..
+    
 #### finally install carta-protobuf <br />
 >* carta-protobuf <br />
 > -I means include <br />

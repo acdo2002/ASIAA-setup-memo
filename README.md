@@ -146,3 +146,35 @@ solution:
 `$ cmake .. -DCMAKE_CXX_FLAGS="-I/usr/local/include/casacode -I/usr/local/include/casacore -I/usr/local/casacore/include -I/usr/local/casacore/include/casacore/ -I/usr/local/zfp/include/" -DCMAKE_CXX_STANDARD_LIBRARIES="-L/usr/local/lib -L/usr/local/casacore/lib -L/usr/local/zfp/lib -L/usr/local/protobuf/lib -limageanalysis"`
 
 `$ make`
+
+##### 2020/05/13 Update ARTA-backend installation (Linux)
+Problem: 
+
+
+   [100%] Linking CXX executable carta_backend
+
+   /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/libuWS.so: undefined reference to `SSLv23_client_method'
+
+   /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/libuWS.so: undefined reference to `SSL_library_init'
+
+   /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/libuWS.so: undefined reference to `SSLv23_server_method'
+
+   collect2: error: ld returned 1 exit status
+
+   CMakeFiles/carta_backend.dir/build.make:787: recipe for target 'carta_backend' failed
+
+   make[2]: *** [carta_backend] Error 1
+
+   CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/carta_backend.dir/all' failed
+
+   make[1]: *** [CMakeFiles/carta_backend.dir/all] Error 2
+
+   Makefile:83: recipe for target 'all' failed
+
+   make: *** [all] Error 2
+   
+Solution:
+
+apt install libssl1.0-dev
+
+https://stackoverflow.com/questions/5593284/undefined-reference-to-ssl-library-init-and-ssl-load-error-strings

@@ -147,7 +147,7 @@ solution:
 
 `$ make`
 
-##### 2020/05/13 Update ARTA-backend installation (Linux)
+##### 2020/05/13 Update CARTA-backend installation (Linux)
 Problem: 
 
 
@@ -178,3 +178,17 @@ Solution:
 apt install libssl1.0-dev
 
 https://stackoverflow.com/questions/5593284/undefined-reference-to-ssl-library-init-and-ssl-load-error-strings
+
+##### 2020/12/01 Update CARTA-backend installation (Linux) 
+Problem:
+The backend can not find the “data” directory containing the “ephemerides” and “geodetic” data.
+
+
+    mkdir -p /usr/share/casacore/data/ephemerides
+    mkdir -p /usr/share/casacore/data/geodetic
+    svn co https://svn.cv.nrao.edu/svn/casa-data/distro/ephemerides/ /usr/share/casacore/data/ephemerides
+    svn co https://svn.cv.nrao.edu/svn/casa-data/distro/geodetic/ /usr/share/casacore/data/geodetic
+    
+    
+or follow the NRAO construction: 
+https://casa.nrao.edu/casadocs/casa-6.1.0/external-data/casa-data-repository

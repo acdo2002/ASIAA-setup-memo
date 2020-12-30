@@ -1,6 +1,9 @@
 # ASIAA-setup-memo
 Memo for setting up the frontend and backend
 
+Mac Big Sur install homebrew
+https://stackoverflow.com/questions/64882584/how-to-run-the-homebrew-installer-under-rosetta-2-on-m1-macbook
+
 # Frontend setup
 [CARTA frontend webpage](https://github.com/CARTAvis/carta-frontend)
 

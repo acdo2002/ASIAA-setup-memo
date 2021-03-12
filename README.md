@@ -209,6 +209,9 @@ Problem:
     2021-03-12 03:06:34 SEVERE MeasTable::doInitObservatories() (file /build/carta-casacore-GjcRTt/carta-casacore-2020.8.20~focal/casa6/casatools/casacore/measures/Measures/MeasTable.cc, line 2865) Cannot read table of Observatories
 
 Solution:
+
 `apt-add-repository -y -s ppa:kernsuite/kern-7`
+
 `apt-get update`
+
 `apt-get -y install casacore-data`

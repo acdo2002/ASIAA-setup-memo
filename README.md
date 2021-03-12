@@ -215,3 +215,6 @@ Solution:
 `apt-get update`
 
 `apt-get -y install casacore-data`
+
+##### 2021/03/12 Update CARTA-backend installation (Ubuntu 20.04)
+install packages: nlohmann-json3-dev

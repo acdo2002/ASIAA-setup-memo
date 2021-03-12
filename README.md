@@ -195,3 +195,20 @@ The backend can not find the “data” directory containing the “ephemerides�
     
 or follow the NRAO construction: 
 https://casa.nrao.edu/casadocs/casa-6.1.0/external-data/casa-data-repository
+
+##### 2021/03/11 Update CARTA-backend installation (Linux) 
+Problem:
+
+
+    2021-03-12 03:06:34 WARN MeasIERS::findTab (file /build/carta-casacore-GjcRTt/carta-casacore-2020.8.20~focal/casa6/casatools/casacore/measures/Measures/MeasIERS.cc, line 387) Requested data table Observatories cannot be found in the searched directories:
+
+    2021-03-12 03:06:34 WARN MeasIERS::findTab (file /build/carta-casacore-GjcRTt/carta-casacore-2020.8.20~focal/casa6/casatools/casacore/measures/Measures/MeasIERS.cc, line 387)+ /usr/share/casacore/data/ephemerides/
+
+    2021-03-12 03:06:34 WARN MeasIERS::findTab (file /build/carta-casacore-GjcRTt/carta-casacore-2020.8.20~focal/casa6/casatools/casacore/measures/Measures/MeasIERS.cc, line 387)+ /usr/share/casacore/data/geodetic/
+
+    2021-03-12 03:06:34 SEVERE MeasTable::doInitObservatories() (file /build/carta-casacore-GjcRTt/carta-casacore-2020.8.20~focal/casa6/casatools/casacore/measures/Measures/MeasTable.cc, line 2865) Cannot read table of Observatories
+
+Solution:
+apt-add-repository -y -s ppa:kernsuite/kern-7
+apt-get update
+apt-get -y install casacore-data

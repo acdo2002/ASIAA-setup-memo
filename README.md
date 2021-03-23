@@ -218,3 +218,7 @@ Solution:
 
 ##### 2021/03/12 Update CARTA-backend installation (Ubuntu 20.04)
 install packages: nlohmann-json3-dev
+
+
+##### 2021/03/23 Update CARTA-backend installation (Ubuntu 20.04)
+install packages: wcslib-dev, libcfitsio-dev

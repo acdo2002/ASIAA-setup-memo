@@ -222,3 +222,21 @@ install packages: nlohmann-json3-dev
 
 ##### 2021/03/23 Update CARTA-backend installation (Ubuntu 20.04)
 install packages: wcslib-dev, libcfitsio-dev
+
+##### 2021/04/15 using token (Ubuntu 20.04)
+frontend should have: the frontend folder should contain "build" folder
+
+`npm run build-docker` (if no docker should try: `npm run build`)
+
+backend command should contain --frontend_folder
+
+`./carta_backend /home/mingyi/carta-test-img --omp_threads=4 --verbosity=5 --log_performance=true --frontend_folder=/home/mingyi/carta-frontend/build`
+
+then the backend will automatically generate token and open url with the token
+
+or you assign a token to the backend 
+
+if you assign token=0000
+
+`CARTA_AUTH_TOKEN=000 ./carta_backend /home/mingyi/carta-test-img --omp_threads=4 --verbosity=5 --log_performance=true --frontend_folder=/home/mingyi/carta-frontend/build`
+

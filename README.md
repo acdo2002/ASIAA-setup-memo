@@ -240,3 +240,5 @@ if you assign token=0000
 
 `CARTA_AUTH_TOKEN=000 ./carta_backend /home/mingyi/carta-test-img --omp_threads=4 --verbosity=5 --log_performance=true --frontend_folder=/home/mingyi/carta-frontend/build`
 
+##### 2021/07/29 install gtest & gmock (Ubuntu 20.04)
+https://zwarrior.medium.com/install-google-test-framework-gtest-on-ubuntu-20-04-368eb6951b12

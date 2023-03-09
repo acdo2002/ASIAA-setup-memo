@@ -242,3 +242,6 @@ if you assign token=0000
 
 ##### 2021/07/29 install gtest & gmock (Ubuntu 20.04)
 https://zwarrior.medium.com/install-google-test-framework-gtest-on-ubuntu-20-04-368eb6951b12
+
+##### 2023/03/09 CARTA installed on M1 (MacOS 11 and MacOS 13)
+https://docs.google.com/document/d/1zZgsb9PIvzPs35_PuIe0TYXV6Lc9vtMPK-DjxJ7SP0I/edit
